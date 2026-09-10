@@ -1,0 +1,88 @@
+[
+  {
+    "id": 1,
+    "name": "Ethiopia Yirgacheffe G1",
+    "category": "coffee",
+    "price": 14.50,
+    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=600&auto=format&fit=crop",
+    "origin": "Etiopija",
+    "roast": 2,
+    "notes": ["Borovnica", "Jasmin", "Bergamot", "Citrusi"],
+    "description": "Premium oprana kafa iz čuvene regije Yirgacheffe. Odlikuje se izrazito cvijetnim aromama i čistim, voćnim tijelom sa dugotrajnim retrookusom divljeg bobičastog voća.",
+    "strength": 2,
+    "stock": 15
+  },
+  {
+    "id": 2,
+    "name": "Colombia Finca El Paraiso",
+    "category": "coffee",
+    "price": 18.90,
+    "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?q=80&w=600&auto=format&fit=crop",
+    "origin": "Kolumbija",
+    "roast": 3,
+    "notes": ["Breskva", "Mliječna čokolada", "Karamela", "Vanila"],
+    "description": "Kafa podvrgnuta dvostrukoj anaerobnoj fermentaciji, što joj daje nevjerovatno intenzivne i slatke arome breskve i jogurta od vanile. Izbalansirana i kremasta.",
+    "strength": 3,
+    "stock": 8
+  },
+  {
+    "id": 3,
+    "name": "Brazil Cerrado Dulce",
+    "category": "coffee",
+    "price": 11.20,
+    "image": "https://primary.jwwb.nl/public/x/y/g/temp-nwwerugygivbhzsqrpem/brazil-high-6ijg41.jpg?enable-io=true&fit=bounds&width=540&height=540&quality=40",
+    "origin": "Brazil",
+    "roast": 4,
+    "notes": ["Lješnik", "Kakao", "Smeđi šećer"],
+    "description": "Klasičan brazilski profil kafe sa niskom kiselosti i izraženim orašastim notama. Idealna za tradicionalni espresso i napitke sa mlijekom.",
+    "strength": 4,
+    "stock": 25
+  },
+  {
+    "id": 4,
+    "name": "Lelit Bianca V3 Espresso Machine",
+    "category": "equipment",
+    "type": "Espresso aparati",
+    "price": 2250.00,
+    "image": "https://schoolofespresso.com/cdn/shop/files/LelitBiancaV3Silver-italianbuiltandretrolook.webp?v=1761305062&width=1445",
+    "specifications": {
+      "Snaga": "1400 W",
+      "Pritisak": "Do 12 bara (ručno profilisanje)",
+      "Kapacitet bojlera": "1.5 L (parni) + 0.8 L (kafa)",
+      "Materijal": "Nerđajući čelik (Inox)"
+    },
+    "description": "Profesionalni aparat za espresso sa dvostrukim bojlerom i inovativnim sistemom za profilisanje protoka (paddle) pomoću kojeg imate potpunu kontrolu nad ekstrakcijom kafe.",
+    "stock": 3
+  },
+  {
+    "id": 5,
+    "name": "Eureka Mignon Specialita Grinder",
+    "category": "equipment",
+    "type": "Mlinovi",
+    "price": 410.00,
+    "image": "https://www.espressocoffeeshop.com/391-large_default/0-eureka-mignon-specialita--coffee-grinder.jpg",
+    "specifications": {
+      "Snaga": "310 W",
+      "Noževi": "55 mm (ravni čelični)",
+      "Kapacitet posude": "300 g",
+      "Podešavanje": "Mikrometarsko (bezstepeno)"
+    },
+    "description": "Izuzetno tih i precizan mlin za kafu namijenjen kućnim i poluprofesionalnim baristima. Poseduje digitalni tajmer na dodir za jedno i duplo doziranje.",
+    "stock": 5
+  },
+  {
+    "id": 6,
+    "name": "Hario V60 Ceramic Dripper (Red)",
+    "category": "equipment",
+    "type": "Pribor",
+    "price": 24.90,
+    "image": "https://thegoldenbrewing.com.au/cdn/shop/products/VDC-02R-00.jpg?v=1634999900",
+    "specifications": {
+      "Kapacitet": "1-4 šoljice (V02)",
+      "Materijal": "Arita-yaki keramika",
+      "Zemlja proizvodnje": "Japan"
+    },
+    "description": "Legendarni japanski dripper za filter kafu. Konusni oblik i spiralna rebra omogućavaju optimalnu ekstrakciju i naglašavaju cvijetne i voćne note.",
+    "stock": 30
+  }
+]

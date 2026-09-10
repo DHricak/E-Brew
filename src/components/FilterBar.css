@@ -1,0 +1,69 @@
+/* FilterBar component */
+.filter-container {
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    border-radius: var(--radius-lg);
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+.filter-group {
+    display: flex;
+    gap: 12px;
+}
+.filter-btn {
+    padding: 10px 20px;
+    border-radius: var(--radius-md);
+    background-color: var(--bg-surface-elevated);
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+.filter-btn:hover {
+    color: var(--text-primary);
+    border-color: var(--primary);
+}
+.filter-btn.active {
+    background-color: var(--primary);
+    color: var(--text-dark);
+    border-color: var(--primary);
+}
+.advanced-filters {
+    display: flex;
+    gap: 20px;
+}
+.filter-subgroup {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.filter-subgroup label {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+.filter-select {
+    background-color: var(--bg-surface-elevated);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 8px 16px;
+    border-radius: var(--radius-md);
+    font-family: inherit;
+    outline: none;
+}
+.filter-select:focus {
+    border-color: var(--primary);
+}
+
+@media (max-width: 768px) {
+    .filter-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .advanced-filters {
+        flex-direction: column;
+    }
+}

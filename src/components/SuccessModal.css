@@ -1,0 +1,39 @@
+/* SuccessModal component */
+.success-content {
+    text-align: center;
+    padding: 48px;
+}
+.success-icon {
+    font-size: 4rem;
+    color: var(--success);
+    margin-bottom: 24px;
+}
+.success-content h3 {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    margin-bottom: 12px;
+}
+.success-content p {
+    color: var(--text-secondary);
+    margin-bottom: 24px;
+}
+.order-details-box {
+    background-color: var(--bg-surface-elevated);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    padding: 16px;
+    margin-bottom: 28px;
+    text-align: left;
+}
+.order-details-box p {
+    margin-bottom: 8px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+.order-details-box p:last-child {
+    margin-bottom: 0;
+}
+.order-details-box span {
+    font-weight: 600;
+    color: var(--text-primary);
+}

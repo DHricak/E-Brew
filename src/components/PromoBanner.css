@@ -1,0 +1,27 @@
+/* PromoBanner component */
+.promo-banner {
+    background-color: var(--primary);
+    color: var(--text-dark);
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1000;
+}
+.promo-banner strong {
+    font-weight: 700;
+    border-bottom: 2px solid var(--text-dark);
+}
+.close-promo {
+    position: absolute;
+    right: 20px;
+    color: var(--text-dark);
+    font-size: 1.1rem;
+}
+.close-promo:hover {
+    transform: scale(1.1);
+}
